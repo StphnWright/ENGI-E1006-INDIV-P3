@@ -11,8 +11,6 @@ passed to the market parameter.
 
 The main program (if __name__ == "__main__") reads market.txt and prompts the user
 to enter a City or ZIP code in a loop until the user quits.
-
-@author: Stephen Wright (svw2112)
 """
 
 from collections import defaultdict
