@@ -1,4 +1,4 @@
-ENGI E1006 - Intro to Computing for Engineers & Applied Scientists
+**ENGI E1006 - Intro to Computing for Engineers & Applied Scientists**
 
 You are welcome to discuss the problems with other students but the code you submit for take-home projects must be
 your own work. Please review the academic honesty policy for this course (at the end of the syllabus page).
@@ -9,7 +9,7 @@ Upload the following file to Courseworks:
 
 project3.py
 
-Farmers Market Database (100 pts)
+**Farmers Market Database (100 pts)**
 
 Download the file markets.txt which contains geographic information for over 7000 farmers markets in the US
 (source http://explore.data.gov/d/wfna-38ey). Each line contains information about one farmers market. Data fields are
@@ -24,8 +24,8 @@ the data. Each farmers market should be represented as a tuple of 5 strings. You
 
 The function should return two objects (i.e. a tuple of length 2):
 
-  1) A dictionary mapping zip codes (keys) to lists of farmers market tuples (values)
-  2) A dictionary mapping towns (keys) to sets of zip codes (values). Think about why it makes sense to use a set of
+  1) A **dictionary** mapping zip codes (keys) to **lists** of farmers market tuples (values)
+  2) A **dictionary** mapping towns (keys) to sets of zip codes (values). Think about why it makes sense to use a set of
   zip codes instead of a list.
 
 b) Write a function print_market(market) that takes a farmers market tuple as its parameter and returns a human-readable
